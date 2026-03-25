@@ -1,9 +1,9 @@
-// Variables:
+// variables:
 
 const numero1 = 10;
 const numero2 = 20;
 
-// Condicionales
+// condicionales:
 
 if (numero1 > numero2) {
     console.log("El número 1 es mayor");
