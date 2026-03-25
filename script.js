@@ -1,8 +1,10 @@
-// Definir 2 variables de tipo numérico
-let numero1 = 10;
-let numero2 = 20;
+// Variables:
 
-// Condicionales para comparar
+const numero1 = 10;
+const numero2 = 20;
+
+// Condicionales
+
 if (numero1 > numero2) {
     console.log("El número 1 es mayor");
 } else if (numero2 > numero1) {
