@@ -78,7 +78,7 @@ else {
 
 // Ejercicio: Piedra, Papel o Tijera
 
-const opciones = ["Piedra", "Papel", "Tijeras"];
+const opciones = ["Piedra", "Papel", "Tijera"];
 
 const select1 = document.getElementById("jugador1");
 const select2 = document.getElementById("jugador2");
@@ -95,15 +95,15 @@ btnJugar.addEventListener("click", () => {
     const eleccion2 = select2.value;
 
     if (eleccion1 === eleccion2) {
-        resultado.textContent = "Empate!";
+        resultado.textContent = "Empate";
     } else if (
-        (eleccion1 === "Piedra"  && eleccion2 === "Tijeras") ||
+        (eleccion1 === "Piedra"  && eleccion2 === "Tijera") ||
         (eleccion1 === "Papel"   && eleccion2 === "Piedra")  ||
-        (eleccion1 === "Tijeras" && eleccion2 === "Papel")
+        (eleccion1 === "Tijera" && eleccion2 === "Papel")
     ) {
-        resultado.textContent = "Gana el Jugador 1!";
+        resultado.textContent = "Gana Jugador 1 =)";
     } else {
-        resultado.textContent = "Gana el Jugador 2!";
+        resultado.textContent = "Gana Jugador 2 =)";
     }
 });
 
