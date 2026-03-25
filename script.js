@@ -13,7 +13,7 @@ if (numero1 > numero2) {
     console.log("Los números son iguales");
 }
 
-// 1. ¿Mayor de edad?
+// 1. Mayor de edad?
 const edad = 20;
 
 if (edad >= 18) {
@@ -39,9 +39,9 @@ if (numero > 0) {
 const nota = 7;
 
 if (nota >= 5) {
-    console.log("¡Felicidades, has aprobado!");
+    console.log("Felicidades, has aprobado =)");
 } else {
-    console.log("Debes estudiar más para la próxima");
+    console.log("Debes estudiar más para la próxima =(");
 }
 
 
@@ -55,11 +55,11 @@ if (num % 2 === 0) {
 }
 
 
-// 5. ¿Es fin de semana?
+// 5. Es fin de semana?
 const dia = "Sábado";
 
 if (dia === "Sábado" || dia === "Domingo") {
-    console.log("¡A disfrutar del descanso!");
+    console.log("A disfrutar del descanso =)");
 } else {
     console.log("Toca seguir trabajando");
 }
