@@ -13,13 +13,15 @@ if (numero1 > numero2) {
     console.log("Los números son iguales");
 }
 
+////------
+
 // 1. Mayor de edad?
-const edad = 20;
+const edad = 21;
 
 if (edad >= 18) {
-    console.log("Puedes votar");
+    console.log("Si puedes votar");
 } else {
-    console.log("Aún eres muy joven");
+    console.log("No puedes votar, aún eres muy joven");
 }
 
 
@@ -36,10 +38,10 @@ if (numero > 0) {
 
 
 // 3. Aprobado o Suspenso
-const nota = 7;
+const nota = 8;
 
 if (nota >= 5) {
-    console.log("Felicidades, has aprobado =)");
+    console.log("Felicidades! has aprobado =)");
 } else {
     console.log("Debes estudiar más para la próxima =(");
 }
